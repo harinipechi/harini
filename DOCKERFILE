@@ -1,0 +1,3 @@
+FROM nginx:alpine
+RUN mkdir -p /user/share/nginx/html
+COPY har.html /usr/share/nginx/html/har.html
